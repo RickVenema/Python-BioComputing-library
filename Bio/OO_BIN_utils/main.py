@@ -3,10 +3,13 @@ This is the starting point of the module
 
 From here, anything can be accessed.
 """
-from utils import utils
+import Bio
+
+
+#import utils.utils as utils
 
 def main():
-    utils.check_if_dna("ATG")
+    #utils.check_if_dna("ATG")
     print("hoi")
 
 
