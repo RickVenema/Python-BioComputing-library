@@ -24,7 +24,7 @@ def InsertionSort(input_list):
         i = i + 1
     return input_list
 
-def Top_Down_Merge_Sort(li):
+def Top_Down_Merge_Sort(input_list):
     """
     if len(li) < 2: return li
     m = len(li) / 2
