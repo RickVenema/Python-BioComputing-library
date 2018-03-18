@@ -1,6 +1,7 @@
 """
 My sorting algorithms
 """
+
 def BubbleSort(input_list):
     length = len(input_list)
     
@@ -11,6 +12,7 @@ def BubbleSort(input_list):
                 input_list[i] = input_list[i+1]
                 input_list[i+1] = temp
     return input_list    
+
 
 def InsertionSort(input_list):
     i = 0
@@ -23,6 +25,7 @@ def InsertionSort(input_list):
             j = j-1
         i = i + 1
     return input_list
+
 
 def Top_Down_Merge_Sort(input_list):
     """
@@ -46,7 +49,8 @@ def Top_Down_Merge_Sort(input_list):
     right = Top_Down_Merge_Sort(right)
 
     return merge(left, right)
-    
+
+
 def merge(l, r):
     result = []
     i = j = 0
@@ -65,10 +69,15 @@ def merge(l, r):
 def Bottom_Up_Merge_Sort(input_list):
     pass
 
+
 def main():
+    """
+    There are a few examples/testing shit below this comment
+    """
     alist = [54,26,93,17,77,31,44,55,20]
     liest = Top_Down_Merge_Sort(alist)
     print(liest)
-    
+
+
 if __name__ == '__main__':
     main()
