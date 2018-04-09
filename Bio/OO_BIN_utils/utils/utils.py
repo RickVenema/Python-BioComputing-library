@@ -1,4 +1,4 @@
-from check_if_dna import check_if_dna
+from utils.check_if_dna import check_if_dna
 
 
 def check_if_dna_func(string_input):

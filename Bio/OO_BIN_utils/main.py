@@ -6,10 +6,11 @@ From here, anything can be accessed.
 import Bio
 
 
-#import utils.utils as utils
+import utils.utils as utils
 
 def main():
-    #utils.check_if_dna("ATG")
+    utils.utils()
+
     print("hoi")
 
 
