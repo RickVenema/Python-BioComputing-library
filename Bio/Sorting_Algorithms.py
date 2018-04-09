@@ -74,7 +74,7 @@ def main():
     """
     There are a few examples/testing shit below this comment
     """
-    alist = [54,26,93,17,77,31,44,55,20]
+    alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
     liest = Top_Down_Merge_Sort(alist)
     print(liest)
 
